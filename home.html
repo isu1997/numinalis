@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- logo -->
+   <link rel="shortcut icon" type="image" href="logo.png">
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+   <!-- header section starts  -->
+
+   <header class="header">
+
+      <section class="flex" style="direction: ltr;">
+
+         <a href="home.html" class="logo"> <img src="images/fullLogo-en.png" class="logoPic">
+
+            <nav class="navbar">
+               <div id="close-navbar" class="fas fa-times"></div>
+               <a href="home.html">דף הבית</a>
+               <a href="courses.html">קורסים</a>
+               <a href="about.html">אודות</a>
+               <a href="contact.html">צור קשר</a>
+            </nav>
+
+            <div class="icons">
+               <div id="account-btn" class="fas fa-user"></div>
+               <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+
+      </section>
+
+   </header>
+
+   <!-- account form section starts  -->
+
+   <div class="account-form">
+
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+         <span class="btn active login-btn">התחברות</span>
+         <span class="btn register-btn">הרשמה</span>
+      </div>
+
+      <form id="login-form" class="login-form active">
+         <h3>התחבר עכשיו</h3>
+         <input type="email" id="email" placeholder="הכנס כתובת דוא''ל" class="box">
+         <input type="password" id="password" placeholder="הכנס סיסמה" class="box">
+         <div class="flex">
+            <label for="remember-me">זכור אותי</label>
+            <input type="checkbox" id="remember-me">
+            <a href="#">שכחתי סיסמה</a>
+         </div>
+         <input type="submit" value="התחבר עכשיו" class="btn">
+      </form>
+
+      <form class="register-form" action="">
+         <h3>הירשם עכשיו</h3>
+         <input type="text" placeholder="שם מלא" class="box">
+         <input type="email" placeholder="כתובת דוא''ל" class="box">
+         <input type="password" placeholder="סיסמה" class="box">
+         <input type="password" placeholder="אימות סיסמה" class="box">
+         <input type="submit" value="הירשם עכשיו" class="btn">
+      </form>
+
+   </div>
+
+   <!-- account form section ends -->
+
+   <!-- header section ends -->
+
+   <!-- home section starts  -->
+
+   <div class="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/forests-3.jpeg) no-repeat;">
+               <div class="drop">
+                  <video src="videos/rain-forest.mp4" loop autoplay muted></video>
+               </div>
+               <div class="shade"></div>
+               <section style="justify-content: right;">
+                  <div class="content" style="text-align: right; direction: rtl;">
+                     <h3>ברוכים הבאים לנומינאליס,
+                        הבית לחניכה במסורות רוחניות
+                        עתיקות</h3>
+                     <p>הצטרפו למסע מקיף של גילוי העצמי והתפתחות רוחנית מעמיקה, באמצעות מגוון רחב של טכניקות, מסורות
+                        וחוויות ייחודיות השזורות
+                        בחכמת העבר והווה</p>
+                     <a href="courses.html" class="btn">התחילו עכשיו</a>
+                  </div>
+               </section>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/meditation02.jpg) no-repeat;">
+               <div class="drop">
+                  <video src="videos/another-planet.mp4" loop autoplay muted></video>
+               </div>
+               <div class="shade"></div>
+               <section style="justify-content: right;">
+                  <div class="content" style="text-align: right; direction: rtl;">
+                     <h3>חשפו את כח הנשימה הפנימי שלכם</h3>
+                     <p>גלו את הסודות העתיקים של נשימות פראנאיאמה ומדיטציות שיאזנו את האנרגיה שלכם ויפתחו שערים חדשים
+                        להכרה עצמית</p>
+                     <a href="pranayamaInfo.html" class="btn">התחילו עכשיו</a>
+                  </div>
+               </section>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/past-life.jpg) no-repeat;">
+               <section style="justify-content: right;">
+                  <div class="content" style="text-align: right; direction: rtl;">
+                     <h3>חשפו את הקשר לגלגוליכם הקודמים</h3>
+                     <p>חוויה ייחודית של היפנוזה וטכניקות מדיטציה לחקירת גלגוליכם הקודמים - שתעניק הבנה חדשה של נשמתכם
+                        ומקומכם בקוסמוס</p>
+                     <a href="#" class="btn">התחילו עכשיו</a>
+                  </div>
+               </section>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/forests-1.jpg) no-repeat;">
+               <section style="justify-content: right;">
+                  <div class="content" style="text-align: right; direction: rtl;">
+                     <h3>צללו אל ידע גנוסטי ואל תרבויות קדומות</h3>
+                     <p>מעבר לערפל הזמן, חכמות נשכחות נצורות במקדשי טיבט העתיקה, בתרבות השומרית ובצוויליזציית אטלנטיס
+                        . שלבו
+                        תובנות רוחניות עתיקות אלו בהווה המודרני שלכם, וחוו את הכוח המסתורי המהדהד מתוך מסורות עבר קדומות
+                     </p>
+                     <a href="#" class="btn">התחילו עכשיו</a>
+                  </div>
+               </section>
+            </div>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </div>
+
+   <!-- home section ends -->
+
+   <!-- subjects section starts  -->
+
+   <section class="subjects">
+
+      <h1 class="heading">הנושאים הפופולריים שלנו</h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/subject-esoteric-icon.png" alt="">
+            <h3>ידע איזוטרי</h3>
+            <p>60 שיעורים</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-pranayama-icon.png" alt="">
+            <h3>פראנהיאמה</h3>
+            <p>40 שיעורים</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-meditation-icon.png" alt="">
+            <h3>מדיטציה</h3>
+            <p>12 שיעורים</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-universe-icon.png" alt="">
+            <h3>אסטרונומיה</h3>
+            <p>12 שיעורים</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-nutrition-icon.png" alt="">
+            <h3>תזונה סאטווית</h3>
+            <p>12 שיעורים</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-spirit-icon.png" alt="">
+            <h3>חיים קודמים</h3>
+            <p>12 שיעורים</p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- subjects section ends -->
+
+   <!-- home courses slider section starts  -->
+
+   <section class="home-courses">
+
+      <h1 class="heading"> הקורסים הפופולריים שלנו </h1>
+
+      <div class="swiper home-courses-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-1.png" alt="">
+                  <h3>פראנהיאמה</h3>
+               </div>
+               <div class="content">
+                  <h3>פראנהיאמה</h3>
+                  <p>לימוד ותרגול של טכניקות נשימה עתיקות ממסורת היוגה, שמטרתן לשחרר חסימות אנרגטיות בגוף, לאזן את זרימת
+                     החיים ולהגביר את
+                     ההכרה העצמית. דרך נשימות מיוחדות, תוכלו לשלוט במצבי תודעה ולחוות ריפוי פנימי.</p>
+                  <a href="pranayamaInfo.html" class="btn">קראו עוד</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-2.png" alt="">
+                  <h3>מודל הספירלות</h3>
+               </div>
+               <div class="content">
+                  <h3>מודל הספירלות</h3>
+                  <p>תיאוריה פסיכולוגית מהפכנית על השלבים התודעתיים השונים שבני אנוש עוברים לאורך החיים, המיוצגים
+                     כספירלה. הקורס יחשוף אתכם
+                     לשלבי הספירלה השונים, יסביר איך להגיע לרמות תודעה גבוהות יותר ולהגשים את הפוטנציאל האנושי המלא.</p>
+                  <a href="spiralDynamicsInfo.html" class="btn">קראו עוד</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-3.png" alt="">
+                  <h3>ריברסינג</h3>
+               </div>
+               <div class="content">
+                  <h3>ריברסינג</h3>
+                  <p>שיטה ייחודית של חזרה לגלגולים קודמים באמצעות הרפיית תודעה. הריברסינג יאפשר לכם לחוות ישירות זכרונות
+                     מחיים קודמים, לטפל
+                     בחוויות טראומטיות ולהעמיק את הקשר לנשמה האינסופית שלכם מעבר לממד הזמן.</p>
+                  <a href="rebirthingInfo.html" class="btn">קראו עוד</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-4.png" alt="">
+                  <h3>חוצנים</h3>
+               </div>
+               <div class="content">
+                  <h3>חוצנים</h3>
+                  <p>הצצה מרתקת אל מאחורי הקלעים של תיאוריות המספרות על מפגשים וקשרים עם חוצני ארץ בהיסטוריה האנושית.
+                     נחשוף את העדויות
+                     הארכאולוגיות והמדעיות לתופעות חוצניות, ונלמד על מה שחוצנים אלה לכאורה מנסים ללמד אותנו על מקורות
+                     החיים.</p>
+                  <a href="aliensInfo.html" class="btn">קראו עוד</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-5.png" alt="">
+                  <h3>כושר</h3>
+               </div>
+               <div class="content">
+                  <h3>כושר</h3>
+                  <p>תוכנית כוללת לאימוני כושר גופני מותאמת לרמות השונות, ששמה דגש על איזון נפשי. הקורס ישלב תרגילי
+                     חיזוק, הגמשה וקרדיו
+                     לחיטוב הגוף, לצד פרקטיקות מדיטטיביות לחיזוק השלמות הרוח-גוף.</p>
+                  <a href="fitnessInfo.html" class="btn">קראו עוד</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-6.png" alt="">
+                  <h3>כירולוגיה</h3>
+               </div>
+               <div class="content">
+                  <h3>כירולוגיה</h3>
+                  <p>לימוד האמנות העתיקה של פענוח קווי היד וקריאה במבנה כף היד. הכירולוגיה תגלה בפניכם את הסודות הגנוזים
+                     בפסי החיים ובקמטים
+                     של היד, הצופנים את אופייכם, יעודכם ועתידכם.</p>
+                  <a href="#" class="btn">קראו עוד</a>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- home courses slider section ends -->
+
+   <section class="info">
+
+      <div class="content">
+         <h3 class="info-title">מפגשים אישיים</h3>
+         <img src="" alt="">
+         <p>
+            אם הרגשת פעם שמשהו עוצר אותך מלחיות את החיים במלוא הפוטנציאל שלך, מלהגשים את החלומות שלך ולחוות אושר
+            אמיתי - יש לי חדשות
+            נפלאות בשבילך.
+
+            אני מזמין אותך למסע מעצים ומשנה חיים של מפגשי נשימה מעגלית, בהם תגלה את הכוח הטמון בך לרפא את עצמך ולעצב
+            מחדש את המציאות שלך.
+            בעזרת טכניקה עוצמתית זו, נצלול יחד לעומק הווייתך, נשחרר חסימות ישנות ונעורר את האנרגיות המרפאות
+            הטבעיות של הגוף
+            והנפש. <br><br>
+
+            בכל מפגש של שעה וחצי, אתאים את התהליך באופן אישי עבורך, כדי לתת מענה לאתגרים הספציפיים איתם אתה מתמודד -
+            בין אם מדובר
+            בקשיים ביחסים, בריאות, קריירה או תחושת תקיעות כללית. נתמקד בך ובמה שאתה צריך כדי לפרוץ קדימה
+            ולפרוח.<br><br>
+
+            אתה יכול לבחור במפגש בודד שיתן לך טעימה מהתהליך, או להתחייב למסע מעמיק של שינוי עם חבילת 8 מפגשים
+            שבועיים. <br><br>
+            <span style="font-weight: bold; font-size: 25px;">עלות מפגש בודד: 500 ש"ח<br>
+               עלות חבילת 8 מפגשים (אחת לשבוע): 3600 ש"ח (חיסכון של 400 ש"ח!) </span><br><br>
+
+            ניתן לקיים את המפגשים באופן פרונטלי במרחב המוגן של הקליניקה שלי או דרך הזום, לפי הנוחות שלך.<br>
+
+            אני מאמין בך ובכוח הפנימי שלך לחולל שינויים מדהימים בחיים שלך. אתה, ורק אתה, מחזיק את המפתח להצלחה
+            ולאושר שלך.<br>
+            אני כאן
+            כדי להכווין, לתמוך ולספק לך את הכלים האפקטיביים ביותר שיעזרו לך לממש את הפוטנציאל העצום הטמון
+            בך.<br><br>
+
+            אבל חשוב שתדע - השינוי האמיתי יגיע רק דרך ההתמדה והמחויבות שלך לתהליך. הפרקטיקות והטכניקות שתלמד הן
+            המפתח, אך היישום
+            וההטמעה שלהם בחיי היומיום הם שיובילו לטרנספורמציה העמוקה שאתה מייחל לה.<br><br>
+
+            כמו שמאמן כושר מנוסה מדריך את מתאמניו, כך אני אספק לך תוכנית עבודה סדורה ומותאמת אישית. אך בסופו של דבר,
+            האחריות לבצע את
+            האימונים ולהפוך אותם לחלק בלתי נפרד מחייך - היא שלך.<br><br>
+
+            אני לא מציע פתרונות קסם או הבטחות שווא. אני מציע לך הזדמנות לגלות את הגרסה הטובה ביותר של עצמך, צעד אחר
+            צעד, באמצעות
+            עבודה עקבית ואמיתית. זו הדרך היחידה ליצור שינויים בני-קיימא שיתפתחו לאורח חיים חדש ומעצים. <br><br>
+
+            אם אתה מוכן לקחת אחריות מלאה על התהליך שלך, להתחייב ולהשקיע בעצמך - אשמח ללוות אותך במסע מופלא זה, לחגוג
+            איתך כל הישג
+            ולראות איך החיים שלך משתנים לנגד עינינו. <br><br>
+
+            אתה הגיבור של הסיפור שלך, ואני כאן כדי לעזור לך לכתוב אותו מחדש.
+         </p>
+         <a href="#" class="btn">לחצ/י כאן כדי להתחיל</a>
+      </div>
+   </section>
+
+
+
+
+
+   <!-- footer section starts -->
+
+   <footer class="footer">
+
+      <section>
+
+         <div class="box-container">
+
+            <div class="box">
+               <img src="images/fullLogo-hw.png" style="width: 212px; height: 54px;">
+               <p>ממדיטציה לאלכימיה, שבילים אל האור הפנימי,<br>
+                  ידע גנוסטי ומיומנויות סומטיות
+               </p>
+               <div class="share">
+                  <a href="https://www.facebook.com/profile.php?id=61559152328018&mibextid=kFxxJD"
+                     class="fab fa-facebook-f"></a>
+                  <a href="https://youtube.com/@awakeningspirallight?si=-S_ocTvycCYzkC5s" class="fab fa-youtube"></a>
+                  <a href="https://instagram.com/numinalis_" class="fab fa-instagram"></a>
+                  <a href="https://www.tiktok.com/@numinalis.israel?_t=8mLFUBZ7gij&_r=1" class="fab fa-tiktok"></a>
+               </div>
+            </div>
+
+            <div class="box">
+               <h3>קישורים מהירים</h3>
+               <a href="home.html" class="link">דף הבית</a>
+               <a href="about.html" class="link">אודות</a>
+               <a href="courses.html" class="link">קורסים</a>
+               <a href="contact.html" class="link">צור קשר</a>
+            </div>
+
+            <div class="box">
+               <h3>קישורים שימושיים</h3>
+               <a href="contact.html" class="link">שאלו אותנו</a>
+               <a href="donateUs.html" class="link">תרמו לנו</a>
+               <a href="privacyPolicy.html" class="link">מדיניות פרטיות</a>
+               <a href="termsOfUse.html" class="link">תנאי שימוש</a>
+            </div>
+
+            <div class="box">
+               <h3>ניוזלטר</h3>
+               <p>הירשמו לקבלת עדכונים</p>
+               <form action="">
+                  <input type="email" name="" placeholder="הכנס כתובת דוא''ל" id="" class="email">
+                  <input type="submit" value="הירשם" class="btn">
+               </form>
+            </div>
+
+         </div>
+
+         <div class="credit" style="direction: ltr;">© 2024 created by <span>mr. Israel Eliav</span> |
+            all
+            rights
+            reserved! </div>
+      </section>
+
+   </footer>
+
+   <!-- footer section ends -->
+
+
+
+   <!-- swiper js link  -->
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+   <!-- custom js file link  -->
+   <script src="js/authManager.js"></script> <!-- This defines authManager -->
+   <script src="js/apiManager.js"></script> <!-- This uses authManager -->
+   <script src="js/script.js"></script> <!-- This uses authManager -->
+
+   <!-- accessibility js file link  -->
+   <!-- <script src="nagishli_beta.js"></script> -->
+</body>
+
+</html>
